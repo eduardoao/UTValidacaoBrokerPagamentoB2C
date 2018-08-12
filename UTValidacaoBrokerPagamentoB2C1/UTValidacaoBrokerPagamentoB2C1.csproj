@@ -38,8 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="It2b.Zar.Dominio">
-      <HintPath>..\..\Zona Azul Rapida - ZAR\branch-poczar-environment\Source\Dominio\It2b.Zar.Dominio\bin\Debug\It2b.Zar.Dominio.dll</HintPath>
+    <Reference Include="It2b.Zar.Dominio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Componentes\It2b.Zar.Dominio.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.2.1\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
